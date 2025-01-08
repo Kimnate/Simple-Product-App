@@ -1,0 +1,64 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #6c63ff, #89cff0);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome-container {
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.welcome-container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+
+.welcome-container .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.welcome-container .btn:hover {
+    background-color: #5a5aff;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+}
+
+.app-header {
+    text-decoration: none;
+    color: white;
+}
+
+.tasks-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
