@@ -62,3 +62,11 @@ body {
     max-height: 400px;
     overflow-y: auto;
 }
+
+.custom-icon {
+    font-size: 28px;
+}
+
+.justified-text {
+    text-align: justify;
+}
